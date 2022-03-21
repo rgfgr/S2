@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "først opgave", "først opgave\først opgave.csproj", "{FC8EC6D6-A693-4113-A8D1-6D5A130F1CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sten saks papir", "kryds og bolle\sten saks papir.csproj", "{B22E0ED7-1D30-4E5B-B54E-CC0910660877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC8EC6D6-A693-4113-A8D1-6D5A130F1CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8EC6D6-A693-4113-A8D1-6D5A130F1CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8EC6D6-A693-4113-A8D1-6D5A130F1CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8EC6D6-A693-4113-A8D1-6D5A130F1CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B22E0ED7-1D30-4E5B-B54E-CC0910660877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B22E0ED7-1D30-4E5B-B54E-CC0910660877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B22E0ED7-1D30-4E5B-B54E-CC0910660877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B22E0ED7-1D30-4E5B-B54E-CC0910660877}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1546830-D361-4AFF-A096-BEAC7C336182}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,20 @@
+﻿<Window x:Class="kryds_og_bolle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kryds_og_bolle"
+        mc:Ignorable="d"
+        Title="sten saks papir" Height="450" Width="800">
+    <Grid>
+        <Image x:Name="play_img" HorizontalAlignment="Left" Height="100" Margin="85,102,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.5,0.5" Stretch="UniformToFill"/>
+        <Image x:Name="ai_img" HorizontalAlignment="Left" Height="100" Margin="513,102,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="rck_btn" Content="Sten" HorizontalAlignment="Left" Margin="83,245,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="rck_btn_Click"/>
+        <Button x:Name="sks_btn" Content="Saks" HorizontalAlignment="Left" Margin="83,270,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="sks_btn_Click"/>
+        <Button x:Name="ppr_btn" Content="Papir" HorizontalAlignment="Left" Margin="83,295,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="ppr_btn_Click"/>
+        <Button x:Name="lzrd_btn" Content="Lizard" HorizontalAlignment="Left" Margin="83,320,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="lzrd_btn_Click"/>
+        <Button x:Name="spk_btn" Content="Spock" HorizontalAlignment="Left" Margin="83,345,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="spk_btn_Click"/>
+        <Label x:Name="point" Content="Score: 0" HorizontalAlignment="Left" Margin="278,276,0,0" VerticalAlignment="Top" FontSize="36" Width="145" Height="50"/>
+
+    </Grid>
+</Window>
