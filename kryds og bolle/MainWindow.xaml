@@ -14,7 +14,9 @@
         <Button x:Name="ppr_btn" Content="Papir" HorizontalAlignment="Left" Margin="83,295,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="ppr_btn_Click"/>
         <Button x:Name="lzrd_btn" Content="Lizard" HorizontalAlignment="Left" Margin="83,320,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="lzrd_btn_Click"/>
         <Button x:Name="spk_btn" Content="Spock" HorizontalAlignment="Left" Margin="83,345,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="spk_btn_Click"/>
-        <Label x:Name="point" Content="Score: 0" HorizontalAlignment="Left" Margin="278,276,0,0" VerticalAlignment="Top" FontSize="36" Width="145" Height="50"/>
+        <Label x:Name="point" Content="Din score: 0" HorizontalAlignment="Left" Margin="181,245,0,0" VerticalAlignment="Top" FontSize="36" Height="50"/>
+        <Label x:Name="aipoint" Content="Ai score: 0" HorizontalAlignment="Left" Margin="478,245,0,0" VerticalAlignment="Top" FontSize="36" Height="50"/>
+        <Button x:Name="rest_btn" Content="reset" HorizontalAlignment="Left" Margin="325,345,0,0" VerticalAlignment="Top" Width="158" Height="34" FontSize="24" Click="rest_btn_Click"/>
 
     </Grid>
 </Window>

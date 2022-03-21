@@ -21,6 +21,7 @@ namespace kryds_og_bolle
     public partial class MainWindow : Window
     {
         int score = 0;
+        int aiscore = 0;
 
         public MainWindow()
         {
@@ -100,12 +101,25 @@ namespace kryds_og_bolle
                 // add point
                 score++;
             }
+            else if (playerplay == aiplay)
+            {
+
+            }
             else
             {
                 // delete point
-                score = 0;
+                aiscore++;
             }
-            point.Content = point.Content.ToString().Split(' ')[0] + " " + score;
+            aipoint.Content = aipoint.Content.ToString().Split(':')[0] + ": " + aiscore;
+            point.Content = point.Content.ToString().Split(':')[0] + ": " + score;
+        }
+
+        private void rest_btn_Click(object sender, RoutedEventArgs e)
+        {
+            aiscore = 0;
+            score = 0;
+            aipoint.Content = aipoint.Content.ToString().Split(':')[0] + ": " + aiscore;
+            point.Content = point.Content.ToString().Split(':')[0] + ": " + score;
         }
     }
 }
