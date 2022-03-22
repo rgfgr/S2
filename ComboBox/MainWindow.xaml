@@ -1,0 +1,22 @@
+﻿<Window x:Class="ComboBox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ComboBox"
+        mc:Ignorable="d"
+        Title="Navn combinator" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="Frt_Name_Combo" HorizontalAlignment="Left" Margin="138,96,0,0" VerticalAlignment="Top" Width="120" IsEditable="True" FontSize="16">
+            <ComboBoxItem Content="empty" FontSize="16" IsSelected="True"/>
+        </ComboBox>
+        <Label x:Name="Frt_Name_Label" Content="Fornavn" HorizontalAlignment="Left" Margin="138,166,0,0" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <ListBox x:Name="Name_List" HorizontalAlignment="Left" Height="100" Margin="238,244,0,0" VerticalAlignment="Top" Width="268"/>
+        <ComboBox x:Name="Lst_Name_Combo" HorizontalAlignment="Left" Margin="509,96,0,0" VerticalAlignment="Top" Width="120" IsEditable="True" FontSize="16">
+            <ComboBoxItem Content="empty" FontSize="16" IsSelected="True"/>
+        </ComboBox>
+        <Label x:Name="Lst_Name_Label" Content="Efternavn" HorizontalAlignment="Left" Margin="509,166,0,0" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <Button x:Name="Comb_Name" Content="Tilføj navn" HorizontalAlignment="Left" Margin="338,182,0,0" VerticalAlignment="Top" Width="75" FontSize="16" Click="Comb_Name_Click"/>
+
+    </Grid>
+</Window>

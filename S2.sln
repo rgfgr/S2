@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sten saks papir", "kryds og
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonCrawler", "DungeonCrawler\DungeonCrawler.csproj", "{6DE44074-FC9D-49F5-B901-F2993929F544}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox", "ComboBox\ComboBox.csproj", "{E65549F4-66C0-4854-9C65-DFF60AFA7D9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6DE44074-FC9D-49F5-B901-F2993929F544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DE44074-FC9D-49F5-B901-F2993929F544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DE44074-FC9D-49F5-B901-F2993929F544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E65549F4-66C0-4854-9C65-DFF60AFA7D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E65549F4-66C0-4854-9C65-DFF60AFA7D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E65549F4-66C0-4854-9C65-DFF60AFA7D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E65549F4-66C0-4854-9C65-DFF60AFA7D9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
