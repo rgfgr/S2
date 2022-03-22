@@ -62,17 +62,17 @@ namespace kryds_og_bolle
                 case 0:
                     aiimg = "rock";
                     break;
-                case 3:
-                    aiimg = "scissors";
-                    break;
-                case 4:
-                    aiimg = "paper";
-                    break;
                 case 1:
                     aiimg = "lizard";
                     break;
                 case 2:
                     aiimg = "spock";
+                    break;
+                case 3:
+                    aiimg = "scissors";
+                    break;
+                case 4:
+                    aiimg = "paper";
                     break;
             }
             ai_img.Source = new BitmapImage(new Uri(@"imgs/" + @aiimg + @".png", UriKind.Relative));

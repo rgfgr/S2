@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "først opgave", "først opg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sten saks papir", "kryds og bolle\sten saks papir.csproj", "{B22E0ED7-1D30-4E5B-B54E-CC0910660877}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonCrawler", "DungeonCrawler\DungeonCrawler.csproj", "{6DE44074-FC9D-49F5-B901-F2993929F544}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B22E0ED7-1D30-4E5B-B54E-CC0910660877}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B22E0ED7-1D30-4E5B-B54E-CC0910660877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B22E0ED7-1D30-4E5B-B54E-CC0910660877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE44074-FC9D-49F5-B901-F2993929F544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE44074-FC9D-49F5-B901-F2993929F544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE44074-FC9D-49F5-B901-F2993929F544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE44074-FC9D-49F5-B901-F2993929F544}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
