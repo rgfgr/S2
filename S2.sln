@@ -11,6 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DungeonCrawler", "DungeonCr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox", "ComboBox\ComboBox.csproj", "{E65549F4-66C0-4854-9C65-DFF60AFA7D9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeEntities", "ShapeEntities\ShapeEntities.csproj", "{37F281AC-2304-4F6B-A911-776CD07130C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeManualTest", "ShapeManualTest\ShapeManualTest.csproj", "{35DB47AD-F11F-4EF3-9BE4-900269AB83FC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{37F281AC-2304-4F6B-A911-776CD07130C0} = {37F281AC-2304-4F6B-A911-776CD07130C0}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +40,14 @@ Global
 		{E65549F4-66C0-4854-9C65-DFF60AFA7D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E65549F4-66C0-4854-9C65-DFF60AFA7D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E65549F4-66C0-4854-9C65-DFF60AFA7D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F281AC-2304-4F6B-A911-776CD07130C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F281AC-2304-4F6B-A911-776CD07130C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F281AC-2304-4F6B-A911-776CD07130C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F281AC-2304-4F6B-A911-776CD07130C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35DB47AD-F11F-4EF3-9BE4-900269AB83FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DB47AD-F11F-4EF3-9BE4-900269AB83FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DB47AD-F11F-4EF3-9BE4-900269AB83FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DB47AD-F11F-4EF3-9BE4-900269AB83FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
