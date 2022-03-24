@@ -18,6 +18,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeManualTest", "ShapeMan
 		{37F281AC-2304-4F6B-A911-776CD07130C0} = {37F281AC-2304-4F6B-A911-776CD07130C0}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkoleOversikt", "SkoleOversikt\SkoleOversikt.csproj", "{0A8F1DCA-A89B-4783-8752-64238417ABFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "People", "People\People.csproj", "{13D428F0-6640-4A45-98DF-A8194B76C93D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +52,14 @@ Global
 		{35DB47AD-F11F-4EF3-9BE4-900269AB83FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35DB47AD-F11F-4EF3-9BE4-900269AB83FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35DB47AD-F11F-4EF3-9BE4-900269AB83FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A8F1DCA-A89B-4783-8752-64238417ABFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8F1DCA-A89B-4783-8752-64238417ABFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8F1DCA-A89B-4783-8752-64238417ABFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8F1DCA-A89B-4783-8752-64238417ABFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D428F0-6640-4A45-98DF-A8194B76C93D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D428F0-6640-4A45-98DF-A8194B76C93D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D428F0-6640-4A45-98DF-A8194B76C93D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D428F0-6640-4A45-98DF-A8194B76C93D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

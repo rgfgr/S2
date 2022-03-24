@@ -1,0 +1,103 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SkoleOversikt"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="SkoleOversikt.MainWindow"
+        mc:Ignorable="d"
+        Title="Skole Oversigt" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="Ppl_Dtb" HorizontalAlignment="Left" Height="255" Margin="469,76,0,0" VerticalAlignment="Top" FontSize="18" Width="289"/>
+        <ComboBox x:Name="Role_Cmb" HorizontalAlignment="Left" Margin="52,332,0,0" VerticalAlignment="Top" Width="128" FontSize="16" Height="35" SelectedIndex="0">
+            <ComboBoxItem Content="Role"/>
+            <ComboBoxItem Content="Elev"/>
+            <ComboBoxItem Content="Lærer"/>
+        </ComboBox>
+        <TextBox x:Name="Navn_Inp" HorizontalAlignment="Left" Height="34" Margin="52,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <Label x:Name="Navn_Lbl" Content="Navn" HorizontalAlignment="Left" Margin="52,39,0,0" VerticalAlignment="Top" Width="120" Height="32" FontSize="16"/>
+        <TextBox x:Name="Age_Inp" HorizontalAlignment="Left" Height="34" Margin="236,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <Label x:Name="Age_Lbl" Content="Alder" HorizontalAlignment="Left" Margin="236,39,0,0" VerticalAlignment="Top" Width="120" Height="32" FontSize="16"/>
+        <TextBox x:Name="Email_Inp" HorizontalAlignment="Left" Height="34" Margin="52,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <Label x:Name="Email_Lbl" Content="Email" HorizontalAlignment="Left" Margin="52,129,0,0" VerticalAlignment="Top" Width="120" Height="32" FontSize="16"/>
+        <TextBox x:Name="Telf_Inp" HorizontalAlignment="Left" Height="34" Margin="236,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <Label x:Name="Telf_Lbl" Content="Telfnr" HorizontalAlignment="Left" Margin="236,129,0,0" VerticalAlignment="Top" Width="120" Height="32" FontSize="16"/>
+        <ComboBox x:Name="Kn_Cmb" HorizontalAlignment="Left" Margin="228,332,0,0" VerticalAlignment="Top" Width="128" FontSize="16" Height="35" SelectedIndex="0">
+            <ComboBoxItem Content="Køn"/>
+            <ComboBoxItem Content="Han"/>
+            <ComboBoxItem Content="Hun"/>
+            <ComboBoxItem Content="Dem"/>
+        </ComboBox>
+        <Button x:Name="Tilf_Btn" Content="Tilføj" HorizontalAlignment="Left" VerticalAlignment="Top" Width="98" Margin="154,245,0,0" Height="43" FontSize="16" Click="Tilf_Btn_Click"/>
+        <RadioButton x:Name="Lærer_Radio" Content="Lærer" HorizontalAlignment="Left" Margin="599,351,0,0" VerticalAlignment="Top" GroupName="Role" RenderTransformOrigin="0.5,0.5" Checked="Lærer_Radio_Checked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton x:Name="Elev_Radio" Content="Elev" HorizontalAlignment="Left" Margin="684,351,0,0" VerticalAlignment="Top" GroupName="Role" RenderTransformOrigin="0.5,0.5" Checked="Elev_Radio_Checked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton x:Name="Han_Radio" Content="Han" HorizontalAlignment="Left" Margin="557,386,0,0" VerticalAlignment="Top" GroupName="Køn" RenderTransformOrigin="0.5,0.5" Checked="Han_Radio_Checked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton x:Name="Hun_Radio" Content="Hun" HorizontalAlignment="Left" Margin="625,387,0,0" VerticalAlignment="Top" GroupName="Køn" RenderTransformOrigin="0.5,0.5" Checked="Hun_Radio_Checked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton x:Name="Dem_Radio" Content="Dem" HorizontalAlignment="Left" Margin="695,387,0,0" VerticalAlignment="Top" GroupName="Køn" RenderTransformOrigin="0.5,0.5" Checked="Dem_Radio_Checked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton x:Name="Bkk_Radio" Content="Bække" HorizontalAlignment="Left" Margin="486,352,0,0" VerticalAlignment="Top" GroupName="Role" IsChecked="True" RenderTransformOrigin="0.5,0.5" Checked="Bkk_Radio_Checked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+        <RadioButton x:Name="All_Radio" Content="Alle køn" HorizontalAlignment="Left" Margin="454,388,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" GroupName="Køn" IsChecked="True" Checked="All_Radio_Checked">
+            <RadioButton.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="1.5" ScaleY="1.5"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </RadioButton.RenderTransform>
+        </RadioButton>
+    </Grid>
+</Window>
