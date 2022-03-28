@@ -1,2 +1,2 @@
-﻿INSERT INTO introtable (Navn, Alder)
-VALUES ('Jhon', 3)
+﻿INSERT INTO introtable
+VALUES ('Jan', 35)
