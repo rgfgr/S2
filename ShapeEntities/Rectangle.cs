@@ -8,8 +8,11 @@ namespace ShapeEntities
 {
     public class Rectangle : Shape
     {
-        public double Length { get; set; }
-        public double Width { get; set; }
+        protected double length;
+        protected double width;
+
+        public double Length { get { return length; } set { length = value; } }
+        public double Width { get { return width; } set { width = value; } }
 
         public Rectangle(int x, int y, double length, double width) : base(x, y)
         {

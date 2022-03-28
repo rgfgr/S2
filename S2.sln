@@ -22,6 +22,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkoleOversikt", "SkoleOvers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "People", "People\People.csproj", "{13D428F0-6640-4A45-98DF-A8194B76C93D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{C9B2351C-EF7C-4909-8A57-5C2FA46A9720}"
+	ProjectSection(SolutionItems) = preProject
+		Database\SQLQuery.sql = Database\SQLQuery.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
