@@ -22,5 +22,7 @@ UPDATE Customers SET Region='Andalusia' WHERE Country='Spain' AND City='Sevilla'
 UPDATE Customers SET CompanyName='Simons Vaffelhus', Address='Strandvejen 65', City='Vejle', PostalCode='7100' WHERE CompanyName='Simons bistro'
 UPDATE Customers SET Address='247 New Avenue', City='Chicago', Region='IL', Phone='555-20159' WHERE CompanyName='White Clover Markets'
 UPDATE Employees SET Address='908 W. Capital Way', City='Tacoma', PostalCode='98401' WHERE FirstName='Janet'
-INSERT INTO Employees (LastName, FirstName, BirthDate, HireDate, Address, City, PostalCode, Country, HomePhone, Extension)
-VALUES ('Larsen', 'Kim', '19/05/1983', '01/01/2022', 'Violvej 45', 'Sønderborg', '6400', 'Denmark', '75835264', '0745')
+/*INSERT INTO Employees (LastName, FirstName, BirthDate, HireDate, Address, City, PostalCode, Country, HomePhone, Extension)
+VALUES ('Larsen', 'Kim', '1983-05-19 00:00:00', '2022-01-01 00:00:00', 'Violvej 45', 'Sønderborg', '6400', 'Denmark', '75835264', '0745')*/
+INSERT INTO Products (ProductName, CategoryID, QuantityPerUnit, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLevel, Discontinued)
+VALUES ('SuperDuperBeer', 1, '2 boxes x 10 bottels', 500, 5000, 1000, 100, 0)
