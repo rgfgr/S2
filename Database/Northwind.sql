@@ -23,6 +23,19 @@ UPDATE Customers SET CompanyName='Simons Vaffelhus', Address='Strandvejen 65', C
 UPDATE Customers SET Address='247 New Avenue', City='Chicago', Region='IL', Phone='555-20159' WHERE CompanyName='White Clover Markets'
 UPDATE Employees SET Address='908 W. Capital Way', City='Tacoma', PostalCode='98401' WHERE FirstName='Janet'
 /*INSERT INTO Employees (LastName, FirstName, BirthDate, HireDate, Address, City, PostalCode, Country, HomePhone, Extension)
-VALUES ('Larsen', 'Kim', '1983-05-19 00:00:00', '2022-01-01 00:00:00', 'Violvej 45', 'Sønderborg', '6400', 'Denmark', '75835264', '0745')*/
+VALUES ('Larsen', 'Kim', '1983-05-19 00:00:00', '2022-01-01 00:00:00', 'Violvej 45', 'Sønderborg', '6400', 'Denmark', '75835264', '0745')
 INSERT INTO Products (ProductName, CategoryID, QuantityPerUnit, UnitPrice, UnitsInStock, UnitsOnOrder, ReorderLevel, Discontinued)
 VALUES ('SuperDuperBeer', 1, '2 boxes x 10 bottels', 500, 5000, 1000, 100, 0)
+INSERT INTO Suppliers (CompanyName, ContactName, ContactTitle, Address, City, PostalCode, Country, Phone, Fax, HomePage)
+VALUES ('Campus Vejle', 'Patrick Holst', 'super intelligence', 'Boulevarden 48', 'Vejle', '7100', 'Denmark', '72162616', 'no fax number', 'https://campusvejle.dk')
+UPDATE Products SET SupplierID=30 WHERE ProductID=78
+INSERT INTO Shippers (CompanyName, Phone)
+VALUES ('Mærsk', '12345678')*/
+SELECT DISTINCT Territories.TerritoryDescription, Region.RegionDescription
+From Territories
+INNER JOIN Region ON Territories.RegionID = Region.RegionID
+SELECT Products.ProductName, Products.UnitPrice, Products.UnitsInStock
+FROM Products
+INNER JOIN Categories ON Products.CategoryID = Categories.CategoryID
+WHERE Categories.CategoryName='Beverages'
+ORDER BY Products.UnitsInStock ASC, Products.ProductName ASC
