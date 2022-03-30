@@ -25,6 +25,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{C9B2351C-EF7C-4909-8A57-5C2FA46A9720}"
 	ProjectSection(SolutionItems) = preProject
 		Database\Nettosql.sql = Database\Nettosql.sql
+		Database\Northwind.sql = Database\Northwind.sql
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netto_App", "Netto_App\Netto_App.csproj", "{C43A62A0-F41B-42EA-B0CE-E525E6142302}"
